@@ -1,0 +1,455 @@
+
+
+
+
+@media (max-width:896px)  {
+   
+    .container-middle{
+        min-width: 360px;
+        transition: .3s;
+    }
+
+}
+
+/** MENU **/
+
+
+@media (max-width:1075px)  {
+    .main-image{
+       max-height: 100%;
+    }
+    .main-container{
+      flex-wrap: wrap;
+    }
+    .container-right{
+      position: relative;
+      width: 86%;
+      height: auto;
+      margin:15px;
+    }
+    .adv-2{
+      width: 600px;
+      height: 342px;
+    }
+    .adv-2 p{
+      margin-top:25%;
+    }
+    .menu ul{
+        display:none;
+        width:100%;
+        opacity: .9;
+        background: #c4c3c9;
+        right:0;
+        top: 37px;
+        position: absolute;
+        height:auto;
+        flex-direction: column;
+      }
+      .top-read{
+        border-bottom: 1px solid black;
+        border-radius: 0;
+        opacity: .9;
+        position: fixed;  
+        top: 36px;
+        right:0;
+        width:100%;
+        height:auto;
+        margin: 0; 
+        padding: 0;  
+        background: #c4c3c9;     
+      }
+      .menu{
+          box-shadow: 0;
+      }
+      .top-read ul {
+        width:50%;
+        padding: 0;
+        margin: 0 auto;
+        list-style: none;
+      }
+      .tools{
+        padding: 3px;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 74%;
+      }
+      .menu ul li{
+          height:55px ;
+          border-bottom: 1px solid black;
+      }
+      .menu ul li:hover{
+         height:60px;
+      }
+      #PushGames{
+        min-width: 225px;
+        width:27%;
+        background: rgb(199, 52, 174);  
+      }
+      .top-read{ 
+        display: none;
+      }
+}
+
+@media (max-width:545px)  { 
+  
+  .container-middle{
+    border-top-left-radius: 0;
+  }
+  .text-overlay{
+    height: 65px;
+  }
+  .text-overlay:hover{
+    height: 72px;
+  }
+  .main-image{
+    height:260px ;
+  }
+}
+
+@media (max-width:600px)  {
+  form input[type=text],
+  form input[type=password], 
+  form input[type=email],
+  form input[type=url]
+  {
+    width: 200px;
+  }
+  .top-read ul {
+    width: 76%;
+  }
+  
+  .container-form{
+    font-family: 'Oswald', sans-serif;
+    z-index: 102;
+    width: 300px; 
+    margin: -250px 0 0 -140px;   
+  }
+  .flat-design-form{
+    width: 275px;
+    margin: 0;
+  }
+}
+
+@media (max-width:400px)  {
+  body{
+    overflow-x: hidden;
+  }
+  .container-middle{
+    min-width: 300px ;
+  }
+  .container-right{
+    min-width: 300px ;
+  }
+  .top-read ul {
+    width: 96%;
+    
+  }
+  .main-image{
+    height:160px ;
+  }
+  .text-overlay{
+    height: 50px;
+  }
+  .text-overlay:hover{
+    height: 56px;
+  }
+}
+
+@media (min-width: 320px)  { 
+  body{
+    overflow-x: none;
+
+  }
+
+}
+
+/*_-_-_-_-_-_-_-_-_-_-_-
+                      _
+                        _
+INDEX_GAMES.HTML MEDIA     _
+                        _
+                      _
+_-_-_-_-_-_-_-_-_-_-_-_*/
+
+@media (max-width: 990px)  { 
+  .container-content{
+    width: 100%;
+    border: none;
+  }
+}
+@media (max-width: 550px)  { 
+  .pre-reg{
+    width: 300px;
+    margin: -40px 0 0 -150px;
+  }
+  .game-item ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
+  }
+  .game-item ul li {
+    width: 96%;
+  }
+  .game-item ul li:first-child {
+    width: 96%;
+  }
+  .game-item ul li:nth-child(2) {
+    width: 96%;
+  }
+  .game-items #discr{
+    display:none;
+  }
+  nav ul{
+    margin-bottom:3px;
+  }
+}
+
+
+
+@media (min-width: 1600px)  { 
+  #initial{
+    font-size: 150px;
+  }
+  #PushGames{
+    font-size: 44px;
+  }
+  .container-middle{
+    width:900px;
+  }
+  .item-news{
+    width: 400px;
+    font-size: 25px;
+  }
+  .menu{
+    height: 50px;
+  }
+  .overlay-1{
+    height: 50px;
+  }
+  .menu ul li a{
+    font-size: 26px;
+  }
+  .footer-container ul li{
+    font-size: 21px;
+  }
+  .footer-container p{
+    font-size: 25px;
+  }
+  .icons a {
+    width: 30px;
+    height: 30px;
+  }
+  .icons  a i:hover{
+    font-size: 35px;
+  }
+  .networks{
+    font-size: 25px;
+  }
+  .callback{
+    padding: 15px;
+  }
+  .under-footer{
+    font-size: 20px;
+  }
+  .container-right{
+    width:550px;
+  }
+  .line{
+    width:275px;
+  }
+  .top-read ul li{
+    height: 70px;
+    font-size:19px;
+  }
+  nav ul li{
+    font-size:26px;
+  }
+  #discr li{
+    font-size:21px;
+  }
+  .game-item ul li {
+    font-size: 20px;
+  }
+  .game-item ul li h3 {
+    font-size: 26px;
+  }
+  .game-item ul li p{
+    font-size: 20px;
+  }
+}
+@media (min-width: 2150px)  { 
+  .container-recom h1{
+    font-size: 40px;
+  }
+  .container-forum h1{
+    font-size: 40px;
+  }
+  .new-topic{
+    width: 350px;
+    font-size: 30px;
+  }
+  .topics ul li{
+    font-size: 30px;
+  }
+  .forum-title h2{
+    font-size: 33px;
+  }
+  .forum-title h3{
+    font-size: 28px;
+  }
+  .forum-icons i{
+    font-size: 20px;
+  }
+  .forum-main p{
+    font-size: 21px;
+  }
+  .chat-title div{
+    font-size: 30px;
+  }
+  .person-name{
+    font-size: 21px;
+  }
+  .person-container{
+    height: 60px;
+  }
+  .chat-container ul li{
+    height: 120px;
+  }
+  .person-img{
+    width: 60px;
+    height: 60px;
+  }
+  .container-recom ul li div h4{
+    font-size: 26px;
+  }
+  .container-recom ul li div p{
+    font-size: 22px;
+  }
+  #initial{
+    font-size: 200px;
+  }
+  .container-middle{
+    width:1100px;
+  }
+  
+  .top-read h3{
+     font-size: 27px;
+  }
+  .top-read ul li {
+    height: 73px;
+    font-size:21px;
+  }
+  .block_top-read{
+    top:49px;
+  }
+  .block_top-read{
+    top:69px;
+  }
+  .s-items p{
+    font-size: 20px;
+  }
+  .s-items i{
+    font-size: 20px; 
+  }
+}
+
+
+/*_-_-_-_-_-_-_-_-_-_-_-
+                      _
+                        _
+INDEX_FORUM.HTML MEDIA     _
+                        _
+                      _
+_-_-_-_-_-_-_-_-_-_-_-_*/
+
+
+@media (max-width: 700px)  { 
+  .forum-main{
+    
+    flex-wrap: wrap;
+  }
+  .GoUp{
+    width: 40px;
+
+  }
+  .GoUp img{
+    width: 40px;
+  }
+  .container-forum-right{
+    width: 250px;
+  }
+  .topics{
+    width: 100%;
+  }
+  .new-topic{
+    width: 180px;
+    margin-left: 15px;
+  }
+  .forum-title h2 a{
+    font-size:18px;
+  }
+  .forum-title h3 a{
+    font-size: 15px;
+  }
+  .container-form_top{
+    flex-wrap: wrap-reverse;
+  }
+}
+
+@media (max-width: 575px)  { 
+  .container-forum-right{
+    opacity: .9;
+    position: fixed;  
+    top: 35px;
+    right:0;
+    width:100%;
+    height: 325px;
+    margin: 0; 
+    padding: 0;
+    border: none;
+  }
+  .chat-container{
+    margin: 0;
+  }
+
+  .tools .fa-rocketchat{
+    display: block;
+  }
+  .chat-container ul{
+    height: 150px;
+    overflow: auto;
+  }
+  .container-forum-right{
+    display:none;
+  }
+  .container-forum-left{
+    width:96%;
+  }
+
+  .for-line-row{
+    flex-direction: column;
+    margin-bottom: 100px;
+  }
+  .container-konkurs{
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    width: 96%;
+    margin-bottom: 100px; 
+    margin-right: 5px;
+    margin-left: 5px;
+
+  }
+  .right-bar{
+    width: 96%;
+    margin: 0 auto;
+    height: 200px;
+  }
+  .fly-block img{
+    width: 45px;
+
+  }
+}
+
+

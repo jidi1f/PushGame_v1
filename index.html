@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"  >
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="media.css">
+	<!--Google Fonts-->
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC%7CSpecial+Elite" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Monoton%7CStaatliches" rel="stylesheet"/>
+	<link href="https://fonts.googleapis.com/css?family=Monoton%7COswald%7CStaatliches" rel="stylesheet"/>
+	<!--Owl-carousel-->
+	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
+	<link rel="stylesheet" href="libs/owl-carousel/owl.theme.default.css" />
+</head>
+
+<body>
+		<!--FORM-->
+		<!--SING IN-->
+		
+		   	
+		<div class="container-form">
+				<div class="flat-design-form">
+					<ul class="tabs">
+						<li>
+							<a class="active" href="#login" id="login-tab"><span id="login_icon"></span>Войти</a>
+						</li>
+		
+						<li>
+							<a href="#register" id="register-tab"><span id="signup_icon"></span>Регистрация</a>
+						</li>
+					</ul>
+		
+					<div class="form-display show" id="login">
+						<h1>Войти</h1>
+		
+						<form  id="reg_log_form_in" action="" method="post" novalidate="">
+							
+							    <ul>
+									<li>
+										<div class="item-form">
+											<input  id="name" name="name" placeholder="Username"   type="text">
+										</div>
+									</li>
+		
+									<li>
+										<div class="item-form">
+											<input  id="password" name="password" placeholder="Password"  type="password">
+										</div>
+									</li>
+		
+									<li><input class="button-login" type="submit" value="Войти"></li>
+								</ul>
+							
+						</form>
+					</div>
+		            <!--Sing UP-->
+					<div class="form-display hide" id="register">
+						<h1>Регистрация</h1>
+		
+						<form id="reg_log_form_up" action="" method="post" novalidate="">
+							
+								<ul>
+									<li>
+										<div class="item-form">
+											<input id="name" name="name" placeholder="Username"  type="text">
+										</div>
+									</li>
+		
+									<li>
+										<div class="item-form">
+											<input id="password-for"   name="password" placeholder="Password"  type="password">
+										</div>
+									</li>
+		
+									<li>
+										<div class="item-form">
+											<input id="confirm_password" name="confirm_password" placeholder="Confirm password" type="password">
+										</div>
+									</li>
+		
+									<li>
+										<div class="item-form">
+											<input id="email" name="email" placeholder="Email"  type="email">
+										</div>
+									</li>
+		
+									<li><input class="button-register" id='send' type="submit" value="Зарегестрироваться"></li>
+								</ul>
+							
+						</form>
+					</div>
+				</div>
+			</div>
+		
+		<!--HTML-->
+		<div class = "Forblur">
+		<div class="menu">
+				<a id="PushGames" href="index.html" class="menu-link">PushGames.net</a>
+				<div class="tools"><i class="fas fa-bars" id="tools_menu"></i><i class="fas fa-book-reader" id="tools_top-read"></i></div>
+				<ul>
+					<li><a href="index.html"        class="menu-link">Главная</a></li>
+					<li><a href="index_games.html"  class="menu-link">Игры</a></li>
+					<li><a href="index_konkurs.html"class="menu-link">Конкурсы</a></li>
+					<li><a href="index_forum.html"  class="menu-link">Форум</a></li>
+					<li><a href="index_stati.html"  class="menu-link">Статьи</a></li>
+					<li><a href="#" target="_blank" class="menu-link">О нас</a></li>
+					<li><a href="#" target="_blank" class="menu-link">Релизы</a></li>
+					<li>
+						<a class="search"><i class="fas fa-search"></i></a>
+						<a href="#" target="_blank"  id = "LOGIN"><i class="fas fa-door-open"></i>Войти</a>
+						<div class= user-picture></div>
+					</li>	
+				</ul>
+				
+				<div class= "overlay-1"></div>
+		</div>
+	
+	
+    <header>
+		  <div class ="content-header">
+			  <p id = "initial">PushGames.Net</p>
+		  </div>
+	</header>
+	
+	<main>
+		
+		<div class="block"></div>
+			<div class = "main-container">
+			
+			<div class= "container-middle">
+				 <div class = "middle-news">
+						 <div class =main-image></div>
+                    <div class = "slider">
+							<div id="owl-main" class = "owl-carousel owl-theme " >
+									<div class = "container-img">
+										<img src="img/slider1.jpg" alt="img" ><div class = "post-overlay"></div><div class = "text-overlay"><span class = "inner-text">somethings-1</span></div>
+								    </div>
+									<div class = "container-img">
+										<img src="img/slider2.jpg" alt="img"><div class = "post-overlay"></div><div class = "text-overlay"><span class = "inner-text">somethings-2</span></div>
+									</div>
+									<div class = "container-img">
+										<img src="img/slider3.jpg" alt="img"><div class = "post-overlay"></div> <div class = "text-overlay"><span class = "inner-text">somethings-3</span></div>
+									</div>
+									<div class = "container-img">
+										<img src="img/slider4.jpg" alt="img"><div class = "post-overlay"></div> <div class = "text-overlay"><span class = "inner-text">somethings-4</span></div>
+								    </div>
+							</div>
+					</div>	
+				</div>
+				<div class = "middle-news-2">
+					<div class="item-news" >
+						<img src="img/news-1.jpg" alt="img">
+						<a href="#"><h3>Над Cyberpunk 2077 будет работать ведущий дизайнер уровней RiME и Deadlight</h3></a>
+						<p>Аналитики ожидают релиз игры в конце следущего года</p>
+					</div>
+					<div class="item-news" >
+						<img src="img/news-2.jpg" alt="img">
+						<a href="#"><h3>Fire Emblem: Awakening попала в Книгу рекордов Гиннесса</h3></a>
+						<p>В весьма узкой номинации</p>
+					</div>
+					<div class="item-news" >
+						<img src="img/news-3.jpg" alt="img">
+						<a href="#"><h3>Sony представила PS Plus на январь, хедлайнером стала Steep</h3></a>
+						<p>Загрузка начнеться с 1 Января</p>
+					</div>
+					<div class="item-news" >
+						<img src="img/news-4.jpg" alt="img">
+						<a href="#"><h3>Лучшим игрокам Dota 2 в 2018 году выплатили 41 миллион долларов</h3></a>
+						<p>А на Pro Evolution Soccer 2018 серьезно сєкономили</p>
+					</div>
+					<div class="item-news" >
+						<img src="img/news-5.jpg" alt="img">
+						<a href="#"><h3>Capcom обновила системные требования ремейка Resident Evil 2</h3></a>
+						<p>Пропали упоминания тактовой частоты процессора и Windows 8</p>
+					</div>
+					<div class="item-news" >
+						<img src="img/news-6.jpg" alt="img">
+						<a href="#"><h3>После открытия собственного магазина Discord привлёк ещё $150 миллионов инвестиций</h3></a>
+						<p>Мессенджер оценивают в 2 миллиарда доларов</p>
+				    </div>
+				</div>
+			</div>
+			<div class= "container-right">
+				<div class ="top-read">
+					<h3>Сейчас читают</h3>
+					<div class = "block_top-read"></div>
+					<ul>
+							<li>
+								<a href="#" target="_blank" class="menu-link">Sony представила PS Plus на январь, хедлайнером стала Steep</a>
+								<div class="top-read_tools">
+									<i class="far fa-eye"></i><div class = "counter-views">123</div><i class="far fa-comments" ></i><div class = "counter-comments">7</div>
+								</div>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="menu-link">Лучшим игрокам Dota 2 в 2018 году выплатили 41 миллион долларов</a>
+								<div class="top-read_tools">
+									<i class="far fa-eye" ></i><div class = "counter-views">56</div><i class="far fa-comments"></i><div class = "counter-comments">11</div>
+								</div>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="menu-link">Над Cyberpunk 2077 будет работать ведущий дизайнер уровней RiME и Deadlight</a>
+								<div class="top-read_tools">
+									<i class="far fa-eye"></i><div class = "counter-views">21</div><i class="far fa-comments"></i><div class = "counter-comments">3</div>
+								</div>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="menu-link">После открытия собственного магазина Discord привлёк ещё $150 миллионов инвестиций</a>
+								<div class="top-read_tools">
+									<i class="far fa-eye"></i><div class = "counter-views">31</div><i class="far fa-comments"></i><div class = "counter-comments">0</div>
+								</div>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="menu-link">Capcom обновила системные требования ремейка Resident Evil 2</a>
+								<div class="top-read_tools">
+									<i class="far fa-eye"></i><div class = "counter-views">9</div><i class="far fa-comments"></i><div class = "counter-comments">2</div>
+							    </div>
+							</li>
+							<li>
+								<a href="#" target="_blank" class="menu-link">Fire Emblem: Awakening попала в Книгу рекордов Гиннесса</a>
+								<div class="top-read_tools">
+									<i class="far fa-eye"></i><div class = "counter-views">8</div><i class="far fa-comments"></i><div class = "counter-comments">3</div>
+							    </div>
+							</li>
+			        </ul>
+
+					</div>
+					<div class = "adv adv-1">
+                        <p>342 x 300</p>
+					</div>
+                    <div class = "adv adv-2">
+						<p>342 x 600</p>
+					</div>
+				</div>
+			</div>
+		
+	</main>
+
+	<footer>
+		<div class="pre-footer-container">
+			<div class= "footer-container">
+				<div class= "networks">
+					<p>МЫ В СОЦИАЛЬНЫХ СЕТЯХ</p>
+						<div class="line"></div>
+						<p class="icons" >
+								<a href="#" target="_blank" >
+									<i class="fab fa-vk"></i>
+								</a>
+								<a href="#" target="_blank" >
+									<i class="fab fa-facebook"></i>
+								</a>
+								<a href="#" target="_blank" >
+									<i class="fab fa-instagram"></i>
+								</a>
+								<a href="#" target="_blank" >
+									<i class="fab fa-youtube"></i>
+								</a>
+								<a href="#" target="_blank"  >
+									<i class="fab fa-twitter"></i>
+								</a>
+								<a href="#" target="_blank"  >
+									<i class="fab fa-telegram-plane"></i>
+								</a>
+						</p>
+						<div class= "callback">
+							<i class="fas fa-pen"></i>
+							<p>ОБРАТНАЯ СВЯЗЬ</p>
+						</div>
+				</div>
+				<div class = "our_projects">
+					<p>НАШИ ПРОЭКТЫ</p>
+					<ul>
+						<li>
+							<a href ="#" target="_blank">.....</a>
+						</li>
+						<li>
+							<a href ="#" target="_blank">.....</a>
+						</li>
+						<li>
+							<a href ="#" target="_blank">.....</a>
+						</li>
+						<li>
+							<a href ="#" target="_blank">.....</a>
+						</li>
+					</ul>
+				</div>
+				<div class= "FAQ">
+					<p>FAQ</p>
+					<ul>
+						<li>
+							<a href ="#" target="_blank">Новые вопросы</a>
+						</li>
+						<li>
+							<a href ="#" target="_blank">Популярные</a>
+						</li>
+						<li>
+							<a href ="#" target="_blank">Правила сайта</a>
+						</li>
+						<li>
+							<a href ="#" target="_blank">Помощь по сайту</a>
+						</li>
+					</ul>
+				</div>
+			
+			</div>
+			<div class= "line-2"></div>
+			<div class="under-footer">
+					<p>© 2018 PushGames.Net created by jidi1f</p>
+			<p>Использование любых материалов сайта без согласования с администрацией запрещено.</p>
+			</div>
+	</div>
+	</footer>
+    </div>
+	<div class="Overlay-popup"> </div>
+	<div class="Popup">
+			<form id="reg_send_form" action="" method="post" novalidate="">
+				 <div class="inputs"></div>
+				    <p>Введите свой email:</p>
+					<input id="email" name="email" placeholder="Email"  type="email"> 
+					<div class="textarea-1">
+						<textarea rows="5" cols="30"> </textarea>
+						<input type="submit" value="Отправить">
+					</div>
+				</div>
+			</form>	
+	</div>
+	 <div class="GoUp"><img src="img/arrow-up.png"></div> 
+	
+	<script src="libs/jquery/Jquery.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/jquery-validator/jquery.validate.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
