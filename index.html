@@ -37,12 +37,12 @@
 					<div class="form-display show" id="login">
 						<h1>Войти</h1>
 		
-						<form  id="reg_log_form_in" action="" method="post" novalidate="">
+						<form  id="reg_log_form_in"  method="post" novalidate="">
 							
 							    <ul>
 									<li>
 										<div class="item-form">
-											<input  id="name" name="name" placeholder="Username"   type="text">
+											<input  class="name" name="name" placeholder="Username"   type="text">
 										</div>
 									</li>
 		
@@ -61,12 +61,12 @@
 					<div class="form-display hide" id="register">
 						<h1>Регистрация</h1>
 		
-						<form id="reg_log_form_up" action="" method="post" novalidate="">
+						<form id="reg_log_form_up"  method="post" novalidate="">
 							
 								<ul>
 									<li>
 										<div class="item-form">
-											<input id="name" name="name" placeholder="Username"  type="text">
+											<input class="name" name="name" placeholder="Username"  type="text">
 										</div>
 									</li>
 		
@@ -84,7 +84,7 @@
 		
 									<li>
 										<div class="item-form">
-											<input id="email" name="email" placeholder="Email"  type="email">
+											<input class="email" name="email" placeholder="Email"  type="email">
 										</div>
 									</li>
 		
@@ -102,13 +102,13 @@
 				<a id="PushGames" href="index.html" class="menu-link">PushGames.net</a>
 				<div class="tools"><i class="fas fa-bars" id="tools_menu"></i><i class="fas fa-book-reader" id="tools_top-read"></i></div>
 				<ul>
-					<li><a href="index.html"        class="menu-link">Главная</a></li>
-					<li><a href="index_games.html"  class="menu-link">Игры</a></li>
-					<li><a href="index_konkurs.html"class="menu-link">Конкурсы</a></li>
-					<li><a href="index_forum.html"  class="menu-link">Форум</a></li>
-					<li><a href="index_stati.html"  class="menu-link">Статьи</a></li>
-					<li><a href="#" target="_blank" class="menu-link">О нас</a></li>
-					<li><a href="#" target="_blank" class="menu-link">Релизы</a></li>
+					<li><a href="index.html"         class="menu-link">Главная</a></li>
+					<li><a href="index_games.html"   class="menu-link">Игры</a></li>
+					<li><a href="index_konkurs.html" class="menu-link">Конкурсы</a></li>
+					<li><a href="index_forum.html"   class="menu-link">Форум</a></li>
+					<li><a href="index_stati.html"   class="menu-link">Статьи</a></li>
+					<li><a href="#" target="_blank"  class="menu-link">О нас</a></li>
+					<li><a href="#" target="_blank"  class="menu-link">Релизы</a></li>
 					<li>
 						<a class="search"><i class="fas fa-search"></i></a>
 						<a href="#" target="_blank"  id = "LOGIN"><i class="fas fa-door-open"></i>Войти</a>
@@ -316,18 +316,19 @@
     </div>
 	<div class="Overlay-popup"> </div>
 	<div class="Popup">
-			<form id="reg_send_form" action="" method="post" novalidate="">
+			<form id="reg_send_form"  method="post" novalidate="">
 				 <div class="inputs"></div>
 				    <p>Введите свой email:</p>
-					<input id="email" name="email" placeholder="Email"  type="email"> 
+					<input class="email" name="email" placeholder="Email"  type="email"> 
 					<div class="textarea-1">
 						<textarea rows="5" cols="30"> </textarea>
 						<input type="submit" value="Отправить">
 					</div>
-				</div>
 			</form>	
 	</div>
-	 <div class="GoUp"><img src="img/arrow-up.png"></div> 
+			
+	
+	 <div class="GoUp"><img src="img/arrow-up.png" alt="img"></div> 
 	
 	<script src="libs/jquery/Jquery.js"></script>
 	<script src="libs/owl-carousel/owl.carousel.min.js"></script>

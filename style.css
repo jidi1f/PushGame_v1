@@ -815,6 +815,11 @@ INDEX_GAMES.HTML      _
 _-_-_-_-_-_-_-_-_-_-_-_*/
 
 
+.content-theme{
+  height: 50px;
+}
+
+
 .container-content{
   font-family: 'Oswald', sans-serif;
   background: white;
@@ -865,7 +870,7 @@ nav ul li:hover{
   height: 86%;
 }
 nav ul {
-  margin-bottom:0px;
+  margin-bottom:-4px;
 }
 .game-item{
   border: 1px solid black;
@@ -873,7 +878,7 @@ nav ul {
   border-left: none;
 }
 .game-items ul { 
-  margin-top:4px;
+  margin-top:12px;
   display:flex;
 }
 .game-items ul li{
